@@ -63,7 +63,7 @@ tasks {
             "fabricApiVersion" to commonMod.depOrNull("fabric-api"),
             "neoForgeVersion" to commonMod.depOrNull("neoforge"),
             "forgeVersion" to commonMod.depOrNull("forge"),
-            "yaclVersion" to commonMod.depOrNull("yacl"),
+            // "yaclVersion" to commonMod.depOrNull("yacl"),
             "modMenuVersion" to commonMod.depOrNull("modmenu")
         ).filterValues { it?.isNotEmpty() == true }.mapValues { (_, v) -> v!! }
 

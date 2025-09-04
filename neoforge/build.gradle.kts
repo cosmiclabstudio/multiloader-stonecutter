@@ -13,10 +13,6 @@ neoForge {
 }
 
 dependencies {
-    implementation("dev.isxander:yet-another-config-lib:${commonMod.dep("yacl")}-neoforge")
-    implementation("me.xdrop:fuzzywuzzy:1.4.0")
-    jarJar("me.xdrop:fuzzywuzzy:1.4.0")
-    runtimeOnly("me.xdrop:fuzzywuzzy:1.4.0")
 }
 
 neoForge {
